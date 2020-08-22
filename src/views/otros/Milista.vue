@@ -8,6 +8,7 @@
       </li>
     </ul>
     {{titulos[1].titulo}}
+    <br>
   </div>
 </template>
 
