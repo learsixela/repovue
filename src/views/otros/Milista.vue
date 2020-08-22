@@ -7,7 +7,7 @@
         {{titulo.titulo}} {{titulo.pag}}
       </li>
     </ul>
-    {{titulos[2].titulo}}
+    {{titulos[1].titulo}}
   </div>
 </template>
 
