@@ -3,8 +3,6 @@
     <div id="nav">
       <router-link to="/titulo">algo</router-link> |
       <router-link to="/pagina2">pag2</router-link>
-
-
     </div>
 
     <router-view/>
