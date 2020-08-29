@@ -22,6 +22,8 @@ Vue.use(VueRouter)
     {path: '/prueba',name: 'Prueba', component: () => import('../views/otros/Prueba.vue')},
     {path: '/ejercicio',name: 'Ejercicio', component: () => import('../views/otros/Ejercicio.vue')},
     {path: '/lista',name: 'Lista', component: () => import('../views/otros/Milista.vue')},
+    {path: '/titulo',name: 'Titulo', component: () => import('../views/titulo/Titulo.vue')},
+    {path: '/pagina2',name: 'Pagina2', component: () => import('../views/otros/Pagina2.vue')},
 
 ]
 

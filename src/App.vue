@@ -1,14 +1,40 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/prueba">Prueba</router-link> |
-      <router-link to="/about">About</router-link>
-      <router-link to="/lista">Lista</router-link>
+      <router-link to="/titulo">algo</router-link> |
+      <router-link to="/pagina2">pag2</router-link>
+
+
     </div>
+
     <router-view/>
+
+    <div id ="footer">
+      <compo-footer
+          :nombress = "this.titulo1"
+          :otromas="this.nombre"
+      > </compo-footer>
+    </div>
+
+
   </div>
 </template>
+<script>
+import ComposFooter from '@/views/otros/Footer'
 
+export default {
+  name: "Titulo",
+  components: {
+    'compo-footer': ComposFooter,
+  },
+  data(){
+    return {
+      titulo1:'Hola Diego',
+      nombre:'paso de datos al footer',
+    }
+  },
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
